@@ -2,8 +2,8 @@ import React,{useEffect, useState} from 'react'
 import Videocard from './VideoCard'
 import { getVideosApi } from '../service/allapis'
 
-function VideoList({add}) {
 
+function Videolist({add}) {
     const [videos,setVideos]=useState([])
     const [deleteResponse,setDeleteResponse]=useState("")
 
@@ -42,4 +42,6 @@ function VideoList({add}) {
   )
 }
 
-export default VideoList
+
+export default Videolist
+

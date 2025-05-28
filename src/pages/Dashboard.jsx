@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import { Row, Col } from 'react-bootstrap'
 import Addvideo from '../components/Addvideo'
-import Category from '../Components/Category'
 import { Link } from 'react-router-dom'
 import Videolist from '../components/Videolist'
-
+import Category from '../components/Category'
 
 
 function Dashboard() {

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Row, Col } from 'react-bootstrap'
 import Addvideo from '../components/Addvideo'
 import { Link } from 'react-router-dom'
-import Videolist from '../components/Videolist'
+import Videolist1 from '../components/Videolist1'
 import Category from '../components/Category'
 
 
@@ -22,7 +22,7 @@ function Dashboard() {
             <Addvideo addres={setAddResponse} />
           </Col>
           <Col sm={6} md={8} className='border border-dark border-1 p-2 mb-4'>
-            <Videolist add={addResponse}/>
+            <Videolist1 add={addResponse} />
           </Col>
           <Col sm={12} md={3} >
             <Category />

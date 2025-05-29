@@ -3,7 +3,7 @@ import { addVideoToCategoryList } from '../service/allapis'
 import { deleteCategoriesApi } from '../service/allapis'
 import { getCategoriesApi } from '../service/allapis'
 
-import Videocard from './VideoCard'
+import Videocard1 from './Videocard1'
 function CategoryList({ addres }) {
 
     const [list, setList] = useState([])
@@ -83,7 +83,7 @@ function CategoryList({ addres }) {
                                         <>
                                         {
                                             item.videos?.map(video=>(
-                                                <Videocard vid={video} delStatus={true}/>
+                                                <Videocard1 vid={video} delStatus={true}/>
                                             ))
                                         }
                                         </>

@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 import Videocard1 from './Videocard1'
 import { getVideosApi } from '../service/allapis'
 
-function Videolist1() {
+function Videolist1(add) {
   const [videos,setVideos]=useState([])
     const [deleteResponse,setDeleteResponse]=useState("")
 
